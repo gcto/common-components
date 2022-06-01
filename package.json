@@ -1,0 +1,38 @@
+{
+  "name": "@gcto/firebase-hooks",
+  "version": "2.0.0",
+  "description": "Hooks for firebase",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "build": "tsc",
+    "format": "echo \"No formatter specified\"",
+    "lint": "echo \"No linter specified\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcto/firebase-hooks.git"
+  },
+  "keywords": [],
+  "author": "Alex <alex@gcto.ca>, Alain <alain@gcto.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "@gcto/swrv-hooks": "^0.0.4",
+    "@types/node": "^17.0.38",
+    "firebase": "^9.8.1",
+    "quasar": "^2.7.1",
+    "vue": "^3"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "publishConfig": {
+    "@gcto:registry": "https://npm.pkg.github.com"
+  }
+}
