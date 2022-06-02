@@ -8,10 +8,10 @@ npm config set @gcto:registry https://npm.pkg.github.com
 npm config set //npm.pkg.github.com/:_authToken PAT_TOKEN_GOES_HERE
 ```
 
-Installing firebase hooks
+Installing common components
 
 ```bash
-npm i @gcto/firebase-hooks
+npm i @gcto/common-components
 ```
 
 ## Usage

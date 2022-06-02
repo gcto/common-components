@@ -1,5 +1,5 @@
 {
-  "name": "@gcto/firebase-hooks",
+  "name": "@gcto/common-components",
   "version": "2.0.0",
   "description": "Hooks for firebase",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gcto/firebase-hooks.git"
+    "url": "git+https://github.com/gcto/common-components.git"
   },
   "keywords": [],
   "author": "Alex <alex@gcto.ca>, Alain <alain@gcto.ca>",
