@@ -6,10 +6,15 @@
     "declaration": true,
     "outDir": "./lib",
     "strict": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@src/*": ["src/*"]
+    }
   },
-  "include": ["src/*"],
+
+  "include": ["**/*.ts", "*.vue"],
   "exclude": [
     "node_modules",
     "./node_modules",
