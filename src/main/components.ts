@@ -17,9 +17,8 @@ import DocRenderer from "./renderers/DocRenderer.vue";
 import ImageRenderer from "./renderers/ImageRenderer.vue";
 import LinkRenderer from "./renderers/LinkRenderer.vue";
 
-import type { DefineComponent } from "vue";
 // EXPORTS
-export const components = {
+export default {
   AutoInput,
   BooleanInput,
   DateInput,

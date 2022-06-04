@@ -9,4 +9,4 @@
 //   },
 // };
 
-export { components } from "./main/components";
+export * from "./main/components";
