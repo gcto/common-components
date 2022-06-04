@@ -1,6 +1,6 @@
 {
   "name": "@gcto/common-components",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Hooks for firebase",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
