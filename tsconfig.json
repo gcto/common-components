@@ -1,27 +1,21 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    // Address https://github.com/quasarframework/app-extension-typescript/issues/36
-    "noEmit": true,
-    "resolveJsonModule": true,
-    // Avoid cross-os errors due to inconsistent file casing
-    "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,
+    "target": "ES2019",
+    "module": "commonjs",
     "strict": true,
-    "target": "es6",
-    // Fix Volar issue https://github.com/johnsoncodehk/volar/issues/1153
-    "jsx": "preserve",
-    // Quasar-defined webpack aliase
-    "baseUrl": ".",
-    "paths": {
-      "@src/*": ["src/*"]
-    }
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "noEmit": true,
+    "jsx": "preserve"
   },
 
-  "include": ["**/*.ts", "*.vue"],
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "./node_modules",
