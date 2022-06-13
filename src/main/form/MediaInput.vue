@@ -1,5 +1,5 @@
 <template>
-  <q-item class="q-pt-none q-pa-none bg-red">
+  <q-item class="q-pt-none q-pa-none">
     <q-item-section v-if="!noImg && modelValue" avatar>
       <image-renderer :content="modelValue" />
     </q-item-section>
