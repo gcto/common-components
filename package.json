@@ -1,9 +1,9 @@
 {
   "name": "@gcto/common-components",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "Hooks for firebase",
-  "main": "lib/index.js",
-  "types": "lib/index.d.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "test": "echo \"No test specified\"",
     "build": "rollup -c",
